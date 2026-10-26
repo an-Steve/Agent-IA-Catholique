@@ -101,7 +101,8 @@ Va sur **<http://127.0.0.1:8000>**.
 Terminal 1 : ollama serve          → port 11434
 Terminal 2 : python server.py      → port 8000  →  http://127.0.0.1:8000
 ```
-Récapitylatif :
+**Récapitulatif :**
+
 Terminale 1 :
 
 <img width="530" height="187" alt="image" src="https://github.com/user-attachments/assets/816216e0-870f-4d39-ad4f-4700a2558717" />
