@@ -171,7 +171,7 @@ Le texte final est généré par le modèle Ollama et peut contenir des erreurs.
 
 Les favoris, l’intention de prière, la taille du texte et l’historique sont enregistrés dans le stockage local du navigateur. Ils ne sont pas synchronisés entre appareils ; l’historique peut être effacé depuis la page.
 
+La position n’est pas demandée au chargement du site. Si tu choisis la recherche autour de toi, les coordonnées servent à former la recherche envoyée à Google Maps. Tu peux aussi chercher une ville sans partager ta position.
+
 ## Lience
 Réalisé par ANTON NELCON Steve
-
-La position n’est pas demandée au chargement du site. Si tu choisis la recherche autour de toi, les coordonnées servent à former la recherche envoyée à Google Maps. Tu peux aussi chercher une ville sans partager ta position.
