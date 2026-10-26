@@ -4,6 +4,8 @@
 
 <img width="1612" height="817" alt="image" src="https://github.com/user-attachments/assets/697e7a63-7b6c-4871-9458-4c2ad1817531" />
 
+Lien vers le site : https://an-steve.github.io/Agent-IA-Catholique/ 
+>Mais l'IA ne fonctionne pas sur ce site car il faut d'abord faire  les configuration Ollama.
 ---
 
 ## ✨ Fonctionnalités
