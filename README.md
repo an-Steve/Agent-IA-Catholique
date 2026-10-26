@@ -140,17 +140,6 @@ python server.py
 PORT=8080 YOUTUBE_API_KEY="TA_CLE_API" python server.py
 ```
 
-### Résultats YouTube intégrés (facultatif)
-
-Sans clé, le bouton YouTube ouvre simplement une recherche sur YouTube. Avec une clé, jusqu'à cinq vidéos s'affichent sur le site.
-
-1. Crée une clé dans Google Cloud et active **YouTube Data API v3** ([documentation](https://developers.google.com/youtube/registering_an_application)).
-2. Définis `YOUTUBE_API_KEY` comme ci-dessus.
-
-Le serveur limite l'usage à **80 recherches par jour** (le quota YouTube standard est de 100 appels `search.list` par jour — [détails](https://developers.google.com/youtube/v3/docs/search/list)).
-
-> 🔐 Ne place jamais la clé dans `app.js`, dans le HTML ou dans le dépôt GitHub.
-
 ---
 
 ## 🧩 Architecture
