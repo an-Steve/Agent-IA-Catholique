@@ -2,6 +2,9 @@
 
 **IA Bible** est un site bilingue de découverte de la Bible et de la foi catholique. Il rassemble un assistant de questions-réponses, des repères bibliques et liturgiques, des prières et des ressources musicales dans une interface accessible depuis un navigateur.
 
+<img width="1456" height="802" alt="image" src="https://github.com/user-attachments/assets/9bf1f42a-b504-4460-a216-11fe9d1e9d61" />
+
+
 ## Ce que le site propose
 
 - **Assistant biblique et catholique** : pose des questions comme « Qui est Jésus ? », sur un passage biblique, la prière, les sacrements ou l’enseignement catholique. Avec le serveur lancé, les réponses sont produites par le modèle local configuré dans Ollama (par défaut `gemma4:e2b`). Le serveur recherche si possible des paragraphes du Catéchisme via TheoFons et les lectures du jour via l’AELF lorsque la question les concerne. Les réponses peuvent citer des références et doivent être vérifiées auprès des sources.
@@ -107,6 +110,15 @@ Dans ton navigateur, ouvre exactement : **http://127.0.0.1:8000**
 
 N’ouvre pas `index.html` directement si tu veux utiliser le modèle : l’agent IA fonctionne par le serveur sur le port **8000**, qui appelle Ollama sur le port **11434**.
 
+Récapitulatif : 
+Terminale 1 
+<img width="1116" height="312" alt="image" src="https://github.com/user-attachments/assets/7c8f38e2-9811-4e2b-b8a1-300d571724b1" />
+
+Terminale 2 :
+<img width="942" height="266" alt="image" src="https://github.com/user-attachments/assets/223449e8-fb7e-4a51-9c5c-dab1c03f2a40" />
+Puis : Dans ton navigateur, ouvre exactement : **http://127.0.0.1:8000**
+
+
 ### Activer les résultats YouTube intégrés (facultatif)
 
 Le bouton YouTube ouvre une recherche YouTube même sans configuration. Pour afficher les résultats vidéo directement sur le site, crée une clé dans Google Cloud, active **YouTube Data API v3**, puis définis la clé dans le terminal avant de lancer le serveur :
@@ -158,5 +170,8 @@ GitHub Pages publie les fichiers de la page, mais **ne démarre pas le modèle O
 Le texte final est généré par le modèle Ollama et peut contenir des erreurs. L'assistant ne remplace ni un prêtre ni une autorité de l'Église. Vérifie les citations et les questions doctrinales auprès des sources officielles.
 
 Les favoris, l’intention de prière, la taille du texte et l’historique sont enregistrés dans le stockage local du navigateur. Ils ne sont pas synchronisés entre appareils ; l’historique peut être effacé depuis la page.
+
+## Lience
+Réalisé par ANTON NELCON Steve
 
 La position n’est pas demandée au chargement du site. Si tu choisis la recherche autour de toi, les coordonnées servent à former la recherche envoyée à Google Maps. Tu peux aussi chercher une ville sans partager ta position.
